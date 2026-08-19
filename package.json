@@ -1,0 +1,48 @@
+{
+  "name": "zentube-desktop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Custom Distraction-Free & Privacy-Friendly YouTube Desktop Client",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "pack": "npm run build && electron-builder --dir",
+    "dist": "npm run build && electron-builder"
+  },
+  "keywords": [
+    "youtube",
+    "client",
+    "electron",
+    "react",
+    "distraction-free",
+    "privacy"
+  ],
+  "author": "ZenTube Team",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "hls.js": "^1.5.17",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6"
+  }
+}
