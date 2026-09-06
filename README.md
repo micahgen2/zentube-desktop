@@ -29,7 +29,7 @@ A custom, distraction-free, and privacy-friendly YouTube desktop client built wi
 
 ### 1. Development Mode (with Live Reloading)
 ```powershell
-cd C:\Users\Micah\.gemini\antigravity\scratch\custom-youtube-client
+cd C:/Path/To/The/Files
 npm.cmd run dev
 ```
 
